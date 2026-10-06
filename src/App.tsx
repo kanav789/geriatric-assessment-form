@@ -5,10 +5,9 @@ import { MantineProvider } from '@mantine/core';
 import { DatesProvider } from '@mantine/dates';
 import { AssessmentForm } from './features/assessment/components/AssessmentForm';
 
-
 export default function App() {
   return (
-    <MantineProvider >
+    <MantineProvider>
       <DatesProvider settings={{}}>
         <AssessmentForm />
       </DatesProvider>

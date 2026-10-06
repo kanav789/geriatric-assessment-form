@@ -42,7 +42,6 @@ Roughly 2–3 hours of focused work (template setup, form wiring, typing gap for
 ## Unfinished / notes
 
 - No live deploy URL (deploy skipped by choice).
-- Template Welcome/Storybook leftovers remain in the repo but are unused by the app entry.
 - Empty initial values are cast once to `AssessmentInput` because Zod's input type still expects numbers/enums/literals before parse — not a second hand-written domain interface.
 
 ## Sample data
