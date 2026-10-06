@@ -111,6 +111,7 @@ export function AssessmentForm({
               min={0}
               max={100}
               step={5}
+              clampBehavior="none"
               key={form.key('barthelIndex')}
               {...form.getInputProps('barthelIndex')}
             />
@@ -119,6 +120,7 @@ export function AssessmentForm({
               label="Regular medications"
               min={0}
               max={30}
+              clampBehavior="none"
               key={form.key('medicationCount')}
               {...form.getInputProps('medicationCount')}
             />
